@@ -1043,6 +1043,10 @@ class JsdocsJava(JsdocsParser):
                 break
         return definition
 
+class JsdocsRuby(JsdocsParser):
+    def setupSettings(self):
+        self.settings = {}
+
 ############################################################33
 
 
